@@ -1,0 +1,14 @@
+<suite name= "suite">
+<test name="test-runner firefox">
+<parameter name="browser" value= "firefox"/>
+<classes>
+<class name="com.pagelibrary.com.ranford.TestExecution"/>
+</classes>
+</test>
+<test name="test-runner chrome">
+<parameter name="browser" value="chrome"/>
+<classes>
+<class name="com.pagelibrary.com.ranford.TestExecution2"/>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite]" parallel="tests">
+  <test thread-count="5" name="test-runner firefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.pagelibrary.com.ranford.TestExecution">
+        <methods>
+          <include name="branchsearchTest"/>
+          <include name="logoutTest"/>
+          <include name="verifyflush"/>
+          <include name="verifyexcel"/>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="beforemethod"/>
+          <include name="extentreport"/>
+        </methods>
+      </class> <!-- com.pagelibrary.com.ranford.TestExecution -->
+    </classes>
+  </test> <!-- test-runner firefox(failed) -->
+</suite> <!-- Failed suite [suite] -->

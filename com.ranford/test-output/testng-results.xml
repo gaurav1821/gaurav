@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+    <line>
+      <![CDATA[Launch passed]]>
+    </line>
+    <line>
+      <![CDATA[login passed]]>
+    </line>
+    <line>
+      <![CDATA[branchbtn passed]]>
+    </line>
+    <line>
+      <![CDATA[update passed]]>
+    </line>
+    <line>
+      <![CDATA[Launch passed]]>
+    </line>
+    <line>
+      <![CDATA[login passed]]>
+    </line>
+    <line>
+      <![CDATA[update passed]]>
+    </line>
+  </reporter-output>
+  <suite name="suite" duration-ms="105730" started-at="2018-09-25T07:20:20Z" finished-at="2018-09-25T07:22:06Z">
+    <groups>
+    </groups>
+    <test name="test-runner firefox" duration-ms="60071" started-at="2018-09-25T07:20:20Z" finished-at="2018-09-25T07:21:20Z">
+      <class name="com.pagelibrary.com.ranford.TestExecution">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@25af5db5]" name="openbrowser" is-config="true" duration-ms="20666" started-at="2018-09-25T07:20:20Z" finished-at="2018-09-25T07:20:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Launch passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@25af5db5]" name="beforemethod" is-config="true" duration-ms="25" started-at="2018-09-25T07:20:41Z" finished-at="2018-09-25T07:20:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pagelibrary.com.ranford.TestExecution.loginTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@25af5db5]" name="loginTest" duration-ms="4261" started-at="2018-09-25T07:20:41Z" finished-at="2018-09-25T07:20:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="branchlinkTest()[pri:1, instance:com.pagelibrary.com.ranford.TestExecution@25af5db5]" name="branchlinkTest" duration-ms="1138" started-at="2018-09-25T07:20:45Z" finished-at="2018-09-25T07:20:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[branchbtn passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- branchlinkTest -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@25af5db5]" name="beforemethod" is-config="true" duration-ms="0" started-at="2018-09-25T07:20:45Z" finished-at="2018-09-25T07:20:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pagelibrary.com.ranford.TestExecution.branchlinkTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@25af5db5]" name="beforemethod" is-config="true" duration-ms="0" started-at="2018-09-25T07:20:46Z" finished-at="2018-09-25T07:20:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pagelibrary.com.ranford.TestExecution.verifyexcel()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="verifyexcel()[pri:2, instance:com.pagelibrary.com.ranford.TestExecution@25af5db5]" name="verifyexcel" duration-ms="23357" started-at="2018-09-25T07:20:46Z" finished-at="2018-09-25T07:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyexcel -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@25af5db5]" name="beforemethod" is-config="true" duration-ms="1" started-at="2018-09-25T07:21:10Z" finished-at="2018-09-25T07:21:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pagelibrary.com.ranford.TestExecution.branchsearchTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="branchsearchTest()[pri:3, instance:com.pagelibrary.com.ranford.TestExecution@25af5db5]" name="branchsearchTest" duration-ms="2481" started-at="2018-09-25T07:21:10Z" finished-at="2018-09-25T07:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- branchsearchTest -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@25af5db5]" name="beforemethod" is-config="true" duration-ms="1" started-at="2018-09-25T07:21:12Z" finished-at="2018-09-25T07:21:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pagelibrary.com.ranford.TestExecution.branch_up_delete1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="branch_up_delete1()[pri:4, instance:com.pagelibrary.com.ranford.TestExecution@25af5db5]" name="branch_up_delete1" duration-ms="4557" started-at="2018-09-25T07:21:12Z" finished-at="2018-09-25T07:21:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[update passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- branch_up_delete1 -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@25af5db5]" name="beforemethod" is-config="true" duration-ms="0" started-at="2018-09-25T07:21:17Z" finished-at="2018-09-25T07:21:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pagelibrary.com.ranford.TestExecution.logoutTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="logoutTest()[pri:5, instance:com.pagelibrary.com.ranford.TestExecution@25af5db5]" name="logoutTest" duration-ms="159" started-at="2018-09-25T07:21:17Z" finished-at="2018-09-25T07:21:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@25af5db5]" name="closebrowser" is-config="true" duration-ms="3313" started-at="2018-09-25T07:21:17Z" finished-at="2018-09-25T07:21:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.pagelibrary.com.ranford.TestExecution -->
+    </test> <!-- test-runner firefox -->
+    <test name="test-runner chrome" duration-ms="45587" started-at="2018-09-25T07:21:20Z" finished-at="2018-09-25T07:22:06Z">
+      <class name="com.pagelibrary.com.ranford.TestExecution2">
+        <test-method status="PASS" signature="extentreport()[pri:0, instance:com.pagelibrary.com.ranford.TestExecution2@66d1af89]" name="extentreport" is-config="true" duration-ms="942" started-at="2018-09-25T07:20:19Z" finished-at="2018-09-25T07:20:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentreport -->
+        <test-method status="PASS" signature="launch_test()[pri:0, instance:com.pagelibrary.com.ranford.TestExecution2@66d1af89]" name="launch_test" is-config="true" duration-ms="16464" started-at="2018-09-25T07:21:20Z" finished-at="2018-09-25T07:21:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Launch passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launch_test -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution2@66d1af89]" name="beforemethod" is-config="true" duration-ms="1" started-at="2018-09-25T07:21:37Z" finished-at="2018-09-25T07:21:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pagelibrary.com.ranford.TestExecution2.login_test()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="login_test()[pri:0, instance:com.pagelibrary.com.ranford.TestExecution2@66d1af89]" name="login_test" duration-ms="4421" started-at="2018-09-25T07:21:37Z" finished-at="2018-09-25T07:21:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_test -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution2@66d1af89]" name="beforemethod" is-config="true" duration-ms="0" started-at="2018-09-25T07:21:41Z" finished-at="2018-09-25T07:21:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pagelibrary.com.ranford.TestExecution2.roles_test()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="roles_test()[pri:1, instance:com.pagelibrary.com.ranford.TestExecution2@66d1af89]" name="roles_test" duration-ms="1185" started-at="2018-09-25T07:21:41Z" finished-at="2018-09-25T07:21:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roles_test -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution2@66d1af89]" name="beforemethod" is-config="true" duration-ms="1" started-at="2018-09-25T07:21:42Z" finished-at="2018-09-25T07:21:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pagelibrary.com.ranford.TestExecution2.new_roles_test()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="new_roles_test()[pri:2, instance:com.pagelibrary.com.ranford.TestExecution2@66d1af89]" name="new_roles_test" duration-ms="10868" started-at="2018-09-25T07:21:42Z" finished-at="2018-09-25T07:21:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- new_roles_test -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution2@66d1af89]" name="beforemethod" is-config="true" duration-ms="8" started-at="2018-09-25T07:21:53Z" finished-at="2018-09-25T07:21:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pagelibrary.com.ranford.TestExecution2.roles_edit_test()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="roles_edit_test()[pri:3, instance:com.pagelibrary.com.ranford.TestExecution2@66d1af89]" name="roles_edit_test" duration-ms="10482" started-at="2018-09-25T07:21:53Z" finished-at="2018-09-25T07:22:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[update passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- roles_edit_test -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution2@66d1af89]" name="beforemethod" is-config="true" duration-ms="1" started-at="2018-09-25T07:22:04Z" finished-at="2018-09-25T07:22:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pagelibrary.com.ranford.TestExecution2.logout_test()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="logout_test()[pri:4, instance:com.pagelibrary.com.ranford.TestExecution2@66d1af89]" name="logout_test" duration-ms="1802" started-at="2018-09-25T07:22:04Z" finished-at="2018-09-25T07:22:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout_test -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.pagelibrary.com.ranford.TestExecution2@66d1af89]" name="closebrowser" is-config="true" duration-ms="330" started-at="2018-09-25T07:22:05Z" finished-at="2018-09-25T07:22:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="verifyflush()[pri:0, instance:com.pagelibrary.com.ranford.TestExecution2@66d1af89]" name="verifyflush" is-config="true" duration-ms="1182" started-at="2018-09-25T07:22:06Z" finished-at="2018-09-25T07:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyflush -->
+      </class> <!-- com.pagelibrary.com.ranford.TestExecution2 -->
+    </test> <!-- test-runner chrome -->
+  </suite> <!-- suite -->
+</testng-results>

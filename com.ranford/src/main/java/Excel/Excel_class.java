@@ -23,7 +23,7 @@ public class Excel_class  extends  Base {
 			FileInputStream fis=new FileInputStream(folderpath+filename);
 			
 			wb=Workbook.getWorkbook(fis);
-			
+			System.out.println(wb);
 			sh=wb.getSheet(sheet);
 		}
 		catch (Exception e)

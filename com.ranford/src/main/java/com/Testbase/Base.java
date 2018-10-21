@@ -17,9 +17,8 @@ public class Base {
 		try {
 				File f=new File(".\\src\\main\\java\\configuration\\config.properties");
 				 
-				 FileReader fr=new FileReader(f);
-				 
-				p=new Properties();
+				FileReader fr=new FileReader(f);
+				 p=new Properties();
 				 
 				 p.load(fr);
 				 }
